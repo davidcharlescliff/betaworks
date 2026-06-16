@@ -45,15 +45,7 @@ export default function Home() {
       }}>
         {/* Brand */}
         <header className="rise-0" style={{ flex: '0 0 auto', padding: '40px 48px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <div style={{
-              width: '12px', height: '12px', borderRadius: '50%',
-              background: 'oklch(0.78 0.16 155)',
-              boxShadow: '0 0 16px oklch(0.78 0.16 155 / 0.8)',
-              flexShrink: 0,
-            }} />
-            <span style={{ fontSize: '17px', fontWeight: 600, letterSpacing: '-0.02em' }}>BetaWorks</span>
-          </div>
+          <img src="/bwLogoWhite.svg" alt="BetaWorks" style={{ height: '20px', width: 'auto' }} />
         </header>
 
         {/* Hero */}
