@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: #0a0c0b; }
+
+@keyframes drift1 {
+  0%, 100% { transform: translate(-12%, -8%) scale(1); }
+  50% { transform: translate(8%, 6%) scale(1.15); }
+}
+@keyframes drift2 {
+  0%, 100% { transform: translate(10%, 6%) scale(1.1); }
+  50% { transform: translate(-8%, -10%) scale(0.95); }
+}
+@keyframes drift3 {
+  0%, 100% { transform: translate(0%, 0%) scale(1); }
+  50% { transform: translate(-10%, 8%) scale(1.2); }
+}
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rise-0 { animation: riseIn 0.7s ease both; }
+.rise-1 { animation: riseIn 0.8s ease 0.1s both; }
+.rise-2 { animation: riseIn 0.8s ease 0.25s both; }
+.rise-3 { animation: riseIn 0.8s ease 0.4s both; }
+.rise-4 { animation: riseIn 0.8s ease 0.55s both; }
+
+.blur-green { animation: drift1 22s ease-in-out infinite; }
+.blur-purple { animation: drift2 26s ease-in-out infinite; }
+.blur-pink { animation: drift3 30s ease-in-out infinite; }
+
+a:hover { color: #ffffff; }
