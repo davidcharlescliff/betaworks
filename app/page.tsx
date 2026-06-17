@@ -45,7 +45,7 @@ export default function Home() {
       }}>
         {/* Brand */}
         <header className="rise-0" style={{ flex: '0 0 auto', padding: '40px 48px' }}>
-          <img src="/bwLogoWhite.svg" alt="BetaWorks" style={{ height: '20px', width: 'auto' }} />
+          <img src="/betaworksLogo.svg" alt="BetaWorks" style={{ height: '20px', width: 'auto' }} />
         </header>
 
         {/* Hero */}
