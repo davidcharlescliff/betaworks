@@ -23,6 +23,7 @@ html, body { background: #0a0c0b; }
 .rise-2 { animation: riseIn 0.8s ease 0.25s both; }
 .rise-3 { animation: riseIn 0.8s ease 0.4s both; }
 .rise-4 { animation: riseIn 0.8s ease 0.55s both; }
+.rise-5 { animation: riseIn 0.8s ease 0.7s both; }
 
 .blur-green { animation: drift1 22s ease-in-out infinite; }
 .blur-purple { animation: drift2 26s ease-in-out infinite; }

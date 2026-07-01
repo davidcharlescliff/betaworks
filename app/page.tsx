@@ -86,11 +86,32 @@ export default function Home() {
                 No build fee — just one monthly subscription
               </span>
             </div>
+
+            <div className="rise-4" style={{
+              display: 'flex', alignItems: 'center', gap: '10px',
+              marginTop: '8px', flexWrap: 'wrap', justifyContent: 'center',
+            }}>
+              <span style={{ fontSize: '13px', color: 'oklch(0.55 0.01 150)' }}>Our work</span>
+              <a
+                href="https://www.taskahq.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '6px',
+                  fontSize: '14px', fontWeight: 500, color: 'oklch(0.85 0.01 150)',
+                  textDecoration: 'none', padding: '6px 14px',
+                  border: '1px solid oklch(1 0 0 / 0.12)', borderRadius: '100px',
+                  transition: 'color 0.2s, border-color 0.2s',
+                }}
+              >
+                Taska ↗
+              </a>
+            </div>
           </div>
         </main>
 
         {/* Footer */}
-        <footer className="rise-4" style={{
+        <footer className="rise-5" style={{
           flex: '0 0 auto', padding: '32px 48px',
           display: 'flex', alignItems: 'center',
           justifyContent: 'space-between', gap: '16px', flexWrap: 'wrap',
